@@ -60,7 +60,7 @@ function Projects() {
 								className={hoveredIndex === index ? "" : "overlay"}
 								onMouseEnter={() => setHoveredIndex(index)}
 								onMouseLeave={() => setHoveredIndex(null)}>
-								<a href={project.projectLink}>
+								<a href={project.projectLink} target="_blank" rel="noreferrer">
 									<img src={project.imageUrl} alt="" />
 								</a>
 							</div>
