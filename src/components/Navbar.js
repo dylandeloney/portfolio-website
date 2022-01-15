@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import samplePDF from "../media/pdf/resumeSample.pdf";
+import resumePDF from "../media/pdf/Dylan_Deloney_Resume_2.pdf";
 
 const Navbar = (props) => {
 	const prevScrollY = useRef(0);
@@ -51,7 +51,7 @@ const Navbar = (props) => {
 						Contact
 					</li>
 					<li className="inline-flex items-center py-3 px-3 my-3 rounded  hover:text-blue-300 cursor-pointer">
-						<a href={samplePDF} target="_blank" rel="noreferrer">
+						<a href={resumePDF} target="_blank" rel="noreferrer">
 							Resume
 						</a>
 					</li>
