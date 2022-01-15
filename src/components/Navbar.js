@@ -51,7 +51,7 @@ const Navbar = (props) => {
 						Contact
 					</li>
 					<li className="inline-flex items-center py-3 px-3 my-3 rounded  hover:text-blue-300 cursor-pointer">
-						<a href={samplePDF} target="_blank">
+						<a href={samplePDF} target="_blank" rel="noreferrer">
 							Resume
 						</a>
 					</li>
