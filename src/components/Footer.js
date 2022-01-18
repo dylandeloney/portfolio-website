@@ -6,7 +6,9 @@ function Footer() {
 			<footer className="mx-auto text-center">
 				<a
 					href="https://github.com/dylandeloney/portfolio-website"
-					className=" hover:text-blue-400 ">
+					className=" hover:text-blue-400 "
+					target="_blank"
+					rel="noreferrer">
 					Created by Dylan Deloney
 				</a>
 			</footer>

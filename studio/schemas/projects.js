@@ -17,6 +17,12 @@ export default {
 			validation: (Rule) => Rule.required(),
 		},
 		{
+			title: "Project Tech Used",
+			name: "techStack",
+			type: "array",
+			of: [{ type: "string" }],
+		},
+		{
 			title: "Project Link",
 			name: "projectLink",
 			type: "url",

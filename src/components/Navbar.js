@@ -21,8 +21,6 @@ const Navbar = (props) => {
 			}
 
 			prevScrollY.current = currentScrollY;
-
-			console.log(displayNav, currentScrollY);
 		};
 
 		window.addEventListener("scroll", handleScroll, { passive: true });

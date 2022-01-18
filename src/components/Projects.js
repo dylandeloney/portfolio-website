@@ -11,6 +11,7 @@ function Projects() {
 				`*[_type == "projects"]{
       projectTitle,
 	  projectDesc,
+	  techStack,
 	  projectLink,
 	  "imageUrl": projectImage.asset->url
 
@@ -43,14 +44,11 @@ function Projects() {
 								<p className="p-1">{project.projectDesc}</p>
 							</div>
 							<div className="mb-4 ">
-								<h3>Tech used in this project: </h3>
+								<h3 className="mb-4">Tech used in this project: </h3>
 								<ul className="columns-2 techList">
-									<li>Mern Stack</li>
-									<li>Javascript</li>
-									<li>React</li>
-									<li>React-Redux</li>
-									<li>Express</li>
-									<li>MongoDB</li>
+									{project.techStack.map((tech, index) => (
+										<li key={index}>{tech}</li>
+									))}
 								</ul>
 							</div>
 						</div>
