@@ -17,7 +17,7 @@ export default {
 			validation: (Rule) => Rule.required(),
 		},
 		{
-			title: "Project Tech Used",
+			title: "Project Tech Stack",
 			name: "techStack",
 			type: "array",
 			of: [{ type: "string" }],
